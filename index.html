@@ -3,73 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CYBERCLASS</title>
+    <title>atvd.2</title>
 </head>
 <body>
-    
-<h1>
-    Investiga y desarrolla
-</h1>
+    <h1>Investiga y desarrolla</h1>
+<p><h3>¿Qué entidades consideraste más importantes para nuestro modelo de datos de biblioteca y por qué?</h3>Libro
+    Usuario, Autor, Préstamo, Categoría, </p>
 
-<p>
-    <h4>1. Dato:</h4> Es una representación simbólica de un atributo o característica de una entidad.
-</p>
+    <p><h3>¿Cuáles son los atributos esenciales que deben incluirse para cada entidad?</h3>Libro: Título, ISBN, autor, editorial, cantidad disponible. <p>Usuario: Nombre, dirección, correo electrónico.
+        <p>Autor: Nombre, apellido.
+            <p>
+                Préstamo: Fecha de préstamo, fecha de devolución.
+                <p>
+                    Categoría: Nombre de la categoría.
+                </p>
+            </p>
+        </p>
+    </p></p>
 
-<p>
-    <h4>2. informacion:</h4> Resultado del procesamiento de datos que proporciona significado y contexto.
-</p>
+    <p><h3>¿Cómo manejarías las relaciones entre las entidades? Por ejemplo, ¿cómo representarías la relación entre un libro y su autor?</h3>
+        Uso de claves primarias y foráneas para relacionar entidades, como conectar un libro con su autor.</p>
 
-<p>
-    <h4>3. Diferencia entre dato e información:</h4> Los datos son crudos y sin procesar, mientras que la información es el resultado del procesamiento de esos datos.
-</p>
+        <p><h3>¿Qué tipo de restricciones de integridad deberíamos aplicar en nuestro modelo de datos para garantizar la consistencia y la precisión de la información?</h3>
+        <p>Claves primarias y foráneas para mantener la consistencia de los datos.</p>
+        Restricciones de unicidad para evitar duplicados.</p>
 
-<p>
-    <h4>4. Tipos de datos:</h4> Incluyen numéricos, textuales, booleanos, fecha/hora, entre otros.
-</p>
+        <p><h3>¿Qué consideraciones tendríamos que tener en cuenta al diseñar la estructura de la base de datos para optimizar el rendimiento y la escalabilidad?</h3>
+            Normalización adecuada, uso de índices y particionamiento de tablas para mejorar el rendimiento y la escalabilidad.</p>
 
-<p>
-    <h4>5. Modelado de Datos:</h4> Proceso de crear un modelo de la estructura de una base de datos.
-</p>
+            <p><h3>¿Qué tipos de consultas o análisis podríamos realizar utilizando este modelo de datos? Por ejemplo, ¿cómo podríamos encontrar todos los libros prestados por un usuario específico?</h3>
+            <p>Libros prestados por un usuario.</p>
+        <p>Libros disponibles en una categoría.</p>
+        Disponibilidad de un libro específico.</p>
 
-<h4>6. tipos de datos <p>Variabilidad: Estáticas (datos no cambian mucho) y dinámicas (datos cambian frecuentemente).</p> 
-<p>Contenido: Textuales, multimedia y mixtas.</p>
-<p>Modelo de base de datos: Relacionales (tablas), NoSQL (flexibles).</p>
-</h4>
-
-<p>
-    <h4>7. Modelo Relacional:</h4> Organiza datos en tablas con relaciones entre ellas.
-</p>
-
-<p>
-    <h4>8. Elementos del Diagrama Entidad-Relación:</h4> Entidades (tablas), atributos (columnas), relaciones (conexiones) y cardinalidad (número de ocurrencias).
-</p>
-
-<p>
-    <h4>9. Entidad:</h4> Objeto o concepto del mundo real representado como una tabla en la base de datos.
-
-</p>
-
-<p>
-    <h4>10. Atributo:</h4> Característica de una entidad. Puede ser numérico, textual, etc.
-
-
-</p>
-
-<p>
-    <h4>11. Relación:</h4> Asociación lógica entre entidades que representa cómo están conectadas.
-</p>
-
-<p>
-    <h4>12. Llaves primarias y foráneas:</h4> Identifican de manera única registros en una tabla y mantienen integridad referencial entre tablas, respectivamente.
-</p>
-
-<p>
-    <h4>13. Reglas del Negocio:</h4> Restricciones que definen aspectos del negocio, incluyendo restricciones en los datos almacenados.
-</p>
-
-<p>
-    <h4>14. Cardinalidad o mapeo:</h4> Describe el número de ocurrencias de una entidad que pueden estar relacionadas con otra entidad (uno a uno, uno a muchos, muchos a muchos).
-</p>
+        <p><h3>¿Existen otras entidades o relaciones que podríamos haber pasado por alto en nuestro modelo inicial? ¿Cómo podríamos mejorar nuestro diseño para abordar esas omisiones?</h3>
+            Incorporar entidades como editoriales y reservas para mayor funcionalidad. <p>
+                Ajustar relaciones según las necesidades específicas del sistema de biblioteca.
+            </p></p>
 
 </body>
 </html>
